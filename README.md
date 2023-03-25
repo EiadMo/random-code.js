@@ -15,7 +15,7 @@ npm install random-code.js
 ```javascript
 const randomCode = require("random-code.js");
 
-console.log(randomCode.generateOne())
+console.log(randomCode.generateOne()); // sITp9uJw
 ```
 
 > Generate Random Code With Custom Length
@@ -25,7 +25,7 @@ const randomCode = require("random-code.js");
 
 console.log(randomCode.generateOne({
   length: 12
-}));
+})); // uImr9EqYCN4P
 ```
 
 > Generate Random Code With Prefix
@@ -35,7 +35,7 @@ const randomCode = require("random-code.js");
 
 console.log(randomCode.generateOne({
   prefix: "hello-"
-}));
+})); // hello-ZVy2eVzw
 ```
 
 > Generate Random Code With Postfix
@@ -45,7 +45,7 @@ const randomCode = require("random-code.js");
 
 console.log(randomCode.generateOne({
   postfix: "-world"
-}));
+})); // FiutVAaq-world
 ```
 
 > Generate Random Code With Custom Length & Prefix & Postfix
@@ -57,9 +57,5 @@ console.log(randomCode.generateOne({
   length: 12,
   prefix: "hello-",
   postfix: "-world"
-}));
+})); // hello-q38AL3eAA7GA-world
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
