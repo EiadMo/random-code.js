@@ -1,8 +1,9 @@
 {
   "name": "random-code.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random Code Generator",
   "main": "index.js",
+  "types": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
